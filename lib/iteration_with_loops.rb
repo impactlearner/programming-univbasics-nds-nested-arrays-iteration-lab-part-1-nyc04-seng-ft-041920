@@ -11,7 +11,8 @@ row_index = 0
 while row_index < integers.count do
   element_index = 0
   while element_index < integers[row_index].count do
-    p integers[row_index][element_index]
+    if integers[row_index][element_index] % = 0
+      p integers[row_index][element_index]
     element_index += 1
   end
   row_index += 1
